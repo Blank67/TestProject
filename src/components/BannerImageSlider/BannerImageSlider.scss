@@ -1,0 +1,12 @@
+#bannerSlider {
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: var(--theme-golden);
+    }
+    .swiper-pagination-bullet-active {
+        background-color: var(--theme-golden);
+    }
+    img {
+        aspect-ratio: 3.3;
+    }
+}
