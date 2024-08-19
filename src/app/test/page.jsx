@@ -11,6 +11,7 @@ import React from "react";
 //     return { props: { data: res.data } };
 // };
 
+
 export const metadata = {
     tile: "Test page",
     description: "This is a demo page",
