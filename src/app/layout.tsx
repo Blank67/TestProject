@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
-import Header from "@/components/Header/Header";
-import CustomReduxProvider from "@/redux/provider";
-import { AxiosInterceptor } from "@/utils/AxiosFetch";
-import PageLoader from "@/components/PageLoader/PageLoader";
+// import Header from "@/components/Header/Header";
+// import CustomReduxProvider from "@/redux/provider";
+// import { AxiosInterceptor } from "@/utils/AxiosFetch";
+// import PageLoader from "@/components/PageLoader/PageLoader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,13 +31,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={inter.className}>
-                <CustomReduxProvider>
+                {/* <CustomReduxProvider>
                     <AxiosInterceptor>
                         <PageLoader />
-                        <Header />
-                        {children}
-                    </AxiosInterceptor>
-                </CustomReduxProvider>
+                        <Header /> */}
+                {children}
+                {/* </AxiosInterceptor>
+                </CustomReduxProvider> */}
             </body>
         </html>
     );
