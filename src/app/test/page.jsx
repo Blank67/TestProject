@@ -12,16 +12,16 @@ import React from "react";
 // };
 
 
-export const metadata = {
-    tile: "Test page",
-    description: "This is a demo page",
-    images: [
-        {
-            url: "https://static8.depositphotos.com/1012223/980/i/950/depositphotos_9803930-stock-photo-demo-cubes.jpg",
-            alt: "Icon",
-        },
-    ],
-};
+// export const metadata = {
+//     tile: "Test page",
+//     description: "This is a demo page",
+//     images: [
+//         {
+//             url: "https://static8.depositphotos.com/1012223/980/i/950/depositphotos_9803930-stock-photo-demo-cubes.jpg",
+//             alt: "Icon",
+//         },
+//     ],
+// };
 
 const TestPage = () => {
     // console.log(data);
